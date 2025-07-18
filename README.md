@@ -13,7 +13,7 @@ A clean, moody-themed calculator built with HTML, CSS, and JavaScript.
 ![screenshot](screen_output.png)
 
 ### 🔗 Live Demo
-Hosted via GitHub Pages: [Click Here](your-live-link)
+Hosted via GitHub Pages: [Click Here](https://prajaktak4.github.io/mini-calculator/)
 
 ---
 
