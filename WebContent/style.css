@@ -1,0 +1,84 @@
+:root {
+  --bg-color: #2d2d3a;
+  --text-color: #fff;
+  --btn-color: #3e3e52;
+  --btn-hover: #5c5c7a;
+  --accent: #d9a7c7;
+  --box: #413e54;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.calculator-container {
+  background: var(--box);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 320px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+#display {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
+  background: #1e1e28;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px;
+  background: var(--btn-color);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history h3 {
+  margin-bottom: 10px;
+  color: var(--accent);
+}
+
+#historyList {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9rem;
+  max-height: 100px;
+  overflow-y: auto;
+}
